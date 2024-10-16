@@ -16,10 +16,6 @@ Using Python to carry out time-based cohort analysis that allows stakeholders to
 
 The dataset is from Kaggle ([Link](https://www.kaggle.com/datasets/ytgangster/online-sales-in-usa)), consists of 36 columns and 286392 entries, records online sales data of different products, several merchandise and electronic in different states in USA from October 2020 to September 2021.
 
-Overview of the dataset:
-
-Since the goal of this project is to analyze time-based cohorts, let's extract neccessary columns as follows: 
-
 ## 1.3. Analysis Approach
 
 This analysis focuses on performing time-based cohort analysis: cusomter will be divided into acquisition cohorts depending on the years that they become customers. Due to the wide spread of customer acquisition years (from 1978 too 2017), I will create 5-year bins as cohorts for this analysis.
